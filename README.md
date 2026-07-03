@@ -8,7 +8,15 @@ Windows 10/11 üzerinde WSL2 + Ubuntu + tam bir geliştirici ortamı (Node.js, P
 - Login gerektirmeyen MCP sunucularını (filesystem, fetch, memory, sequential-thinking) toplu ekler.
 - Login/API key gerektiren entegrasyonları (GitHub, Slack, Postgres, Cloudflare) tek tek sorar.
 
-## Kullanım
+## Kullanım (en kolay — tek dosya)
+
+Sadece [`install.bat`](https://raw.githubusercontent.com/fckfavor/dev-setup/main/install.bat) dosyasını indirip **çift tıklayın**.
+
+- UAC (yönetici izni) penceresi çıkar, onaylayın.
+- `install.bat` gerekli script dosyalarını kendisi indirir (`dev-setup-files` alt klasörüne) ve kurulumu başlatır.
+- Başka hiçbir dosyayla uğraşmanıza gerek yok.
+
+## Kullanım (manuel — iki dosya)
 
 1. Bu iki dosyayı **aynı klasöre** indirin:
    - `setup-all-in-one.ps1`
